@@ -1,0 +1,14 @@
+[project]
+name = "research-paper-engine"
+version = "0.1.0"
+description = "ArXiv Research Paper Search Engine with Elasticsearch & Streamlit"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "elasticsearch>=8.0,<9.0",
+    "streamlit>=1.28",
+    "pandas>=2.0",
+    "scikit-learn>=1.3",
+    "nltk>=3.8",
+    "arxiv>=1.4",
+]
